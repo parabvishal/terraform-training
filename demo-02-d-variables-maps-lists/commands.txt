@@ -1,0 +1,5 @@
+#terraform plan
+#terraform apply
+#terraform plan -var="AWS_INSTANCE_TYPE=t2.small"
+#terraform destroy
+#terraform plan -var-file="custom.tfvars"

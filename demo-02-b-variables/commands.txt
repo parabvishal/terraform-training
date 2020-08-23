@@ -1,0 +1,17 @@
+#terraform plan
+#terraform apply
+#terraform plan -var="AWS_INSTANCE_TYPE=t2.small"
+#terraform destroy
+#terraform plan -var-file="custom.tfvars"
+
+#set variable on windows
+#setx TF_VAR_AWS_INSTANCE_TYPE t2.large
+
+#check the value of variable command line
+#echo %TF_VAR_AWS_INSTANCE_TYPE%
+
+
+
+#set variable command line in linux
+#export TF_VAR_AWS_INSTANCE_TYPE="m5.large"
+#echo $TF_VAR_AWS_INSTANCE_TYPE
