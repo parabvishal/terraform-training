@@ -1,0 +1,7 @@
+$ aws configure --profile account1
+$ aws configure --profile account2
+
+$ aws configure list
+$ aws configure list-profiles
+
+$ aws s3 ls --profile account2
